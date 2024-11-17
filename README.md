@@ -29,3 +29,6 @@ Used Node.js, express, MongoDB
 ### comments
 ![image](https://github.com/user-attachments/assets/8acf8888-08aa-4894-9b9e-fc98bbed7e57)
 
+## Explanation
+
+The final output of the `GET /feed/:userId` API returns a user's content feed, which includes posts made by their friends and posts from non-friends that have comments from friends. In this example, the feed contains two posts. The first post was made by Mike (user `64bfa0c1d4f0e3b4567ac003`), with no comments, and it appears in the feed because Mike is a friend of the user. The second post is made by the user themselves (`64bfa0c1d4f0e3b4567ac001`), and it has a comment from another friend (user `64bfa0c1d4f0e3b4567ac002`), fulfilling the condition for displaying posts from non-friends if a friend has commented. Each post contains its unique ID, user ID, content, the list of comments, and the creation timestamp.

@@ -1,5 +1,10 @@
 # Social-Media-Platform-API
+
 Used Node.js, express, MongoDB
+
+## To Run
+##### npm install
+##### node server.js
 ## MongoDB Schemas:
 
 ### * User registration with details.

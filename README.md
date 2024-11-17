@@ -2,15 +2,15 @@
 Used Node.js, express, MongoDB
 ## MongoDB Schemas:
 
-### User registration with details.
-### Friend request management with statuses (pending, accepted, rejected).
-### Text-only post creation.
-### Comment creation on posts.
+### * User registration with details.
+### * Friend request management with statuses (pending, accepted, rejected).
+### * Text-only post creation.
+### * Comment creation on posts.
 
 ## APIs for Feed Operations:
 
-### An API that retrieves posts from friends.
-### Posts from non-friends where a friend has commented.
+### * An API that retrieves posts from friends.
+### * Posts from non-friends where a friend has commented.
 
 ## Output
 ![image](https://github.com/user-attachments/assets/09b31743-0c94-4e3a-b13e-0d1a59a8fa19)
